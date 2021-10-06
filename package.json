@@ -1,0 +1,16 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "Pig-game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Lakshya Bang",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
