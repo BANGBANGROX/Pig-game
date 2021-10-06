@@ -1,16 +1,24 @@
 {
   "name": "pig-game",
   "version": "1.0.0",
-  "description": "Pig-game",
-  "default": "index.html",
+  "description": "A fun game to play",
+  "main": "script.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "Lakshya Bang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BANGBANGROX/Pig-game.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/BANGBANGROX/Pig-game/issues"
+  },
+  "homepage": "https://github.com/BANGBANGROX/Pig-game#readme",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
   }
 }
